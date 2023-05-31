@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(171, 206, 240);
+    height: 100vh;
+}
+.container_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 10%;
+    height: 90vh;
+    width: 100%;
+}
+.tittle_presenting{
+    font-size: 50px;
+    cursor:default;
+    
+    & span{
+        color: rgb(243, 245, 119);
+    }
+}
+.tittle_Information{
+    font-size: 50px;
+    cursor: default;
+
+    & span{
+        color: rgb(243, 245, 119);
+    }
+}
+.image_arrow{
+    width: 90px;
+    height: 90px;
+    margin:auto;
+    margin-bottom: 100px;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    cursor: pointer;
+    &:hover{
+        transform: translateY(-15px);
+        background-color: rgba(rgb(133, 133, 133), 0.6);
+        
+    }
+}
+.skew{
+    background: linear-gradient(rgb(171, 206, 240), white );
+    width: 100%;
+    height: 10vh;
+}
