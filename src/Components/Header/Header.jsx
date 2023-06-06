@@ -14,10 +14,8 @@ export const Header = () => {
             </div>
             <img src={arrow} alt="" className='image_arrow' />
         </section>
-        <div className='skew'>
 
-        </div>
-        
+        <div className='skew'></div>
         </>
         )
     

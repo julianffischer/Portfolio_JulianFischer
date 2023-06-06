@@ -49,3 +49,9 @@
     width: 100%;
     height: 10vh;
 }
+
+@media (max-width: 900px) {
+    .tittle_presenting {
+        text-align: center;
+    } 
+}

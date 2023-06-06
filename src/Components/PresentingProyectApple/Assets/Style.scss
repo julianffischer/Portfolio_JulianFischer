@@ -1,27 +1,39 @@
+.container_project{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+// Apple 
 .container_proyect_apple{
     display: flex;   
     gap: 10%;
     // Texto
     &-text{
         display: flex;
-        background-color: rgb(128, 157, 201);
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
         font-size: x-large;
         border-radius: 0px 50px 50px 0px;
         padding: 0px 50px;
+        margin: 0px 0px;
         height: auto;
         min-height: 50vh;
         flex-basis: 40%;
+        
+    }
+
+    &-subText{
+    // background-color: rgba($color: #000000, $alpha: 0.1);
+    margin: 50px 0px;
     }
 }
 .container_proyect-tittle{
-    background-color: rgba($color: #000000, $alpha: 0.2);
     border-radius: 20px;
     padding: 15px;
-    color: white;
+    color: rgb(59, 59, 59);
     width: 100%;
     cursor:pointer;
     transition: all 0.1s ease-in;
@@ -36,6 +48,52 @@
     border-radius:50px 0px 0px 50px ;
 }
 
+// Ford
+
+.container_proyect_ford{
+    display: flex;   
+    gap: 10%;
+    // Texto
+    &-text{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 0px 50px 50px 0px;
+        padding: 0px 50px;
+        margin: 0px 0px;
+        height: auto;
+        min-height: 50vh;
+        flex-basis: 40%;
+        
+    }
+
+    &-subText{
+    // background-color: rgba($color: #000000, $alpha: 0.1);
+    margin: 50px 0px;
+    }
+}
+.container_proyect-tittle{
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(59, 59, 59);
+    width: 100%;
+    cursor:pointer;
+    transition: all 0.1s ease-in;
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+.container_proyect_ford-image{
+    width: 45vw;
+    border-radius:50px 0px 0px 50px ;
+}
+
 
 
 @media (max-width: 900px) {
@@ -43,10 +101,26 @@
         display: block;
 
         &-text{
+            
             border-radius: 50px 50px 0px 0px;
+            font-size: 20px;
         }
     }
     .container_proyect_apple-image{
+        width: 100%;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .container_proyect_ford {
+        display: block;
+
+        &-text{
+            
+            border-radius: 50px 50px 0px 0px;
+            font-size: 20px;
+        }
+    }
+    .container_proyect_ford-image{
         width: 100%;
         border-radius: 0px 0px 50px 50px;
     }
